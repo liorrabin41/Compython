@@ -8,7 +8,7 @@ from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
 HTTP_FORMATS = ["GET", "POST"]
 
-
+gelles = 10 ** 20
 def valid_http(data):
     """
     :param data:
